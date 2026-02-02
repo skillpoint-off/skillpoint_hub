@@ -16,7 +16,7 @@ import Post from "../../../assets/icons/Postgresql.svg";
 import Pytest from "../../../assets/icons/PyTest.svg";
 import Pytorch from "../../../assets/icons/PyTorch.svg";
 import Scikit from "../../../assets/icons/Scikit.svg";
-import Vscode from "../../../assets/icons/Vscode.svg";
+import Vscode from "../../../assets/icons/vscode.svg";
 import TensorFlow from "../../../assets/icons/TensorFlow.svg";
 
 const outcomes = [
