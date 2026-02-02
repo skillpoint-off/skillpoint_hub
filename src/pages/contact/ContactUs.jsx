@@ -1,12 +1,23 @@
 import { useState } from "react";
-import { ArrowRight } from "lucide-react";
 import Insta from "../../assets/images/Instagram.png"
 import Youtube from "../../assets/images/youtube.png"
 import Linkedin from "../../assets/images/Linkedin.png"
+import { useNavigate } from "react-router-dom";
 
 
 
 const ContactUs = () => {
+    const navigate = useNavigate();
+
+    const goToOutcomes = () => {
+        navigate("/"); // home page
+        setTimeout(() => {
+            const el = document.getElementById("outcomes");
+            el?.scrollIntoView({ behavior: "smooth" });
+        }, 100);
+    };
+
+    
     const [form, setForm] = useState({
         name: "",
         email: "",

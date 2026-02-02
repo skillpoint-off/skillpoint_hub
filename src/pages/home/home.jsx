@@ -1,6 +1,6 @@
 import Navbar from '../../components/Navbar';
-import HeroSection from '../home/section/HeroSection';
-import LearningOutcomes from '../home/section/LearningOutcomes';
+import HeroSection from './section/HeroSection';
+import LearningOutcomes from './section/LearningOutcomes';
 import '../../App.css';
 import StepByStep from './section/StepByStep';
 import CTASection from './section/CTASection';
@@ -12,20 +12,23 @@ import Footer from '../../components/Footer';
 function Home() {
     return (
         <div className="app">
-            <Navbar/>
+            <Navbar />
             <main>
                 <HeroSection />
                 <StepByStep />
                 <CTASection />
-                <LearningOutcomes />
+               
+                    <LearningOutcomes />
+
+
                 <ProgramJourney />
                 {/* <CurriculumTimeline /> */}
                 {/* <NewAgeAcademics /> */}
                 <SalesTimeline />
-                <BYOPRoadmap  />
+                <BYOPRoadmap />
                 {/* <RoadmapZigZag /> */}
-                
-                <Footer/>
+
+                <Footer />
             </main>
         </div>
     );

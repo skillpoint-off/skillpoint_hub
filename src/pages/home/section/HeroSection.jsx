@@ -9,7 +9,9 @@ import backedImg from "../../../assets/images/Frame-1297.webp";
 
 import desktopVideoThumb from "../../../assets/images/banner.png";
 import {  Download } from"lucide-react"
-
+const openPDF = () => {
+    window.open("/program-brochure.pdf", "_blank");
+};
 const HeroSection = () => {
     return (
         <section className=" text-white  py-10 lg:py-15 ">
@@ -51,6 +53,7 @@ const HeroSection = () => {
 
                         {/* CTA */}
                         <a
+                            onClick={openPDF}
                             href="/program-brochure.pdf"
                             download
                             className="hidden lg:inline-flex items-center gap-3

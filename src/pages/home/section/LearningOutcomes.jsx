@@ -50,7 +50,7 @@ const LearningOutcomes = () => {
                     </p>
                 </div>
 
-                <img src={videoThumb} className="rounded-3xl w-[400px] " />
+                <img src={videoThumb} className="rounded-3xl w-full " />
             </div>
 
             {/* DESKTOP */}
