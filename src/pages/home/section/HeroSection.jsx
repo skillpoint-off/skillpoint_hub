@@ -4,6 +4,9 @@ import Location from "../../../assets/images/location-2.svg"
 import Medal from "../../../assets/images/medal-1.svg"
 
 import coireiLogo from "../../../assets/images/coirei-logo-orange.png";
+import GritLogo from "../../../assets/images/GritLogo.svg";
+
+
 import foundersImg from "../../../assets/images/Paytm-cred-uc-meesho-Swiggy.webp";
 import backedImg from "../../../assets/images/Frame-1297.webp";
 import { useNavigate } from "react-router-dom";
@@ -80,7 +83,7 @@ const HeroSection = () => {
                         {/* Logos */}
                         <div className="flex gap-3 lg:gap-3 max-lg:hidden ">
                             <LogoBlock title="Powered by:" img={coireiLogo} />
-                            <LogoBlock title="Backed by:" img={coireiLogo} />
+                            <LogoBlock title="Backed by:" img={GritLogo} />
 
                         </div>
                     </div>
