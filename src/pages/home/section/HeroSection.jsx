@@ -10,7 +10,7 @@ import GritLogo from "../../../assets/images/GritLogo.svg";
 import foundersImg from "../../../assets/images/Paytm-cred-uc-meesho-Swiggy.webp";
 import backedImg from "../../../assets/images/Frame-1297.webp";
 import { useNavigate } from "react-router-dom";
-import desktopVideoThumb from "../../../assets/images/banner.png";
+import desktopVideoThumb from "../../../assets/images/bannerNew.png";
 import { Download, ArrowRight } from "lucide-react"
 const openPDF = () => {
     window.open("/program-brochure.pdf", "_blank");

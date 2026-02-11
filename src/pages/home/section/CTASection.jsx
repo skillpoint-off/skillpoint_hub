@@ -1,5 +1,5 @@
-import desktopBg from "../../../assets/images/ctaImg.png";
-import mobileBg from "../../../assets/images/ctaMobile.png";
+import FounderDesktop from "../../../assets/images/ctaImgNew.png";
+import FounderBg from "../../../assets/images/ctaMobileNew.png";
 
 import { ArrowRight } from "lucide-react";
 
@@ -16,13 +16,13 @@ const CTASection = () => {
           bg-cover bg-no-repeat bg-right
         "
                 style={{
-                    backgroundImage: `url(${desktopBg})`,
+                    backgroundImage: `url(${FounderDesktop})`,
                 }}
             >
                 {/* Mobile background */}
                 <div
                     className="absolute inset-0 lg:hidden bg-cover bg-right"
-                    style={{ backgroundImage: `url(${mobileBg})` }}
+                    style={{ backgroundImage: `url(${FounderBg})` }}
                 />
 
                 {/* Overlay */}
